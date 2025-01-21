@@ -1,8 +1,21 @@
 {
-    "name": "webcartell/anvil",
-    "description": "Anvil Container for Apiato.",
-    "require": {
-        "spatie/laravel-webhook-server": "^3.8"
-    },
-    "license": "MIT"
+  "name": "webcartell/anvil",
+  "description": "Anvil Container for Apiato.",
+  "require": {
+    "spatie/laravel-webhook-server": "^3.8",
+    "apiato/core": "^v7.0.0"
+  },
+  "extra": {
+    "apiato": {
+      "container": {
+        "name": "Anvil"
+      }
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "apiato/container-installer": true
+    }
+  },
+  "license": "MIT"
 }
