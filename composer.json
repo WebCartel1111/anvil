@@ -1,0 +1,8 @@
+{
+    "name": "webcartell/anvil",
+    "description": "Anvil Container for Apiato.",
+    "require": {
+        "spatie/laravel-webhook-server": "^3.8"
+    },
+    "license": "MIT"
+}
